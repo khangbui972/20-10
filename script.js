@@ -14,12 +14,12 @@ const greetingEl = document.getElementById('greeting');
 let dots = [];
 const dotColors = ['#9333ea', '#a855f7', '#d8b4fe', '#ec4899', '#f472b6', '#ffcad4'];
 const images = [
-    "images/anh2.jpg", "images/anh1.jpg",
-    "images/anh6.jpg", "images/anh5.jpg",
-    "images/anh4.jpg", "images/6.jpg",
-    "images/7.jpg", "images/8.jpg",
-    "images/9.jpg", "images/anh8.jpg",
-    "images/anh7.jpg", "images/anh3.jpg",
+    "anh2.jpg", "anh1.jpg",
+    "anh6.jpg", "anh5.jpg",
+    "anh4.jpg", "anh6.jpg",
+    "anh7.jpg", "anh8.jpg",
+    "anh9.jpg", "anh8.jpg",
+    "anh7.jpg", "anh3.jpg",
 ];
 
 // TRÁI TIM
@@ -248,4 +248,5 @@ function init() {
 }
 
 window.onload = init;
+
 window.addEventListener('resize', init);
