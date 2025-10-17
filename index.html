@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20/10 - Chúc Mừng Phụ Nữ Việt Nam</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="min-h-screen flex items-center justify-center overflow-hidden relative">
+
+    <div class="petal-container" id="petal-container"></div>
+
+    <button id="musicBtn" class="music-btn">
+        🔊 Bật nhạc
+    </button>
+
+    <audio id="bgMusic" loop>
+        <source src="music/Lovely Piano Song.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="relative main-container">
+        <div id="image-heart-container" class="image-heart-container"></div>
+
+        <div class="message-overlay">
+            <h1 class="title-2010 animate-glow">
+                20/10
+            </h1>
+            <p class="greeting-box" id="greeting">
+                Chúc bạn luôn xinh đẹp, tự tin và rạng rỡ như những bông hoa ngày 20/10 💐
+            </p>
+        </div>
+
+        <div id="dot-heart-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
